@@ -13,15 +13,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <!-- CSSConnector -->
+    <!-- Estilização -->
     <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/global-colors.css">
 </head>
 
 <body>
     <div class="vw-100 vh-100 d-flex align-items-center justify-content-center">
         <div class="rounded login-box">
             <div class="p-4">
-                <h4 class="text-center mb-0">Login</h4>
+                <h4 class="text-center mb-2">Login</h4>
+                <p class="text-center mb-0 subtitle">Digite seu e-mail e senha abaixo</p>
             </div>
             <div class="line"></div>
             <div class="p-4">
@@ -34,11 +36,8 @@
                     <input type="password" class="form-control" id="password">
                 </div>
                 <button type="button" class="btn btn-outline-primary w-100"><p class="mb-0">Entrar</p></button> 
-                <div>
-                    <p class="p-link">Criar conta</p>
-                </div>
-                <div>
-                    <p class="p-link">Esqueceu sua senha?</p>
+                <div class="d-flex align-items-center justify-content-center mt-2">
+                    <p class="p-link subtitle mb-0 l-spacing-2">Criar conta?</p> <a class="mb-0 " href="./register.html"> registre-se </a>
                 </div>
             </div>
         </div>

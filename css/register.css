@@ -1,14 +1,23 @@
 
-/* Fonte Global */
+/* CSS Global */
 p, h1, h2, h3, h4, h5, h6, body{
     font-family: "Montserrat", sans-serif;
 }
 
+.l-spacing-2{
+    letter-spacing:0.28px;
+}
 .line {
     width: 100%;
     border-bottom: 1px solid var(--border-color);
 }
 
+a { 
+    color: #312f2f;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 4px;  
+}
 /* Login-box declare */
 .login-box {
     width: 350px;
@@ -30,6 +39,7 @@ p, h1, h2, h3, h4, h5, h6, body{
 }
 
 .login-box input{
+    color: #818181;
     background-color: #2d82d60f;
     box-shadow: 0px 0px 20px #f3f3f3;
     border: 0px;
@@ -41,3 +51,11 @@ p, h1, h2, h3, h4, h5, h6, body{
 }
 
 
+
+.form-control:focus {
+    color: #818181;
+    background-color: #2d82d60f;
+    border-color: var(--border-color);
+    outline: 0;
+    box-shadow: 0px 0px 20px #f3f3f3;
+}
