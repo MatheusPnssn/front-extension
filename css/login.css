@@ -1,5 +1,4 @@
 
-
 /* Fonte Global */
 p, h1, h2, h3, h4, h5, h6, body{
     font-family: "Montserrat", sans-serif;
@@ -7,31 +6,33 @@ p, h1, h2, h3, h4, h5, h6, body{
 
 .line {
     width: 100%;
-    border-bottom: 1px solid #e1e1e1;
+    border-bottom: 1px solid var(--border-color);
 }
 
 /* Login-box declare */
 .login-box {
     width: 300px;
-    height: 420px;
-    border: 1px solid #e1e1e1;
+    height: fit-content;
     box-shadow: 0px 0px 45px #f3f3f3;
 }
 
-.login-box p , .login-box h4{
+.login-box p {
     font-weight: 600;
+}
+.login-box h4{
+    font-weight: 600;
+
 }
 
 .login-box input, .login-box button{
-    height: 42px;
+    height: 36px;
 }
 
 .login-box input{
-    background-color: #2d82d608;
-}
-
-.login-box .p-link{
-    font-size: small;
+    background-color: #2d82d60f;
+    box-shadow: 0px 0px 20px #f3f3f3;
+    border: 0px;
+    border-bottom: 2px solid var(--border-color);
 }
 
 
