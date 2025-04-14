@@ -48,6 +48,7 @@ a {
 
 .login-box .subtitle{
     color: var(--subtitle-color);
+    font-family: "Poppins", sans-serif;
 }
 
 
