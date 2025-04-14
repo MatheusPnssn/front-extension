@@ -18,6 +18,16 @@ a {
     font-weight: 600;
     margin-left: 4px;  
 }
+
+.main-btn {
+    background-color: var(--btn-color);
+}
+
+.main-btn p {
+    color: white;
+    font-weight: 700 !important;
+}
+
 /* Login-box declare */
 .login-box {
     width: 350px;
