@@ -1,5 +1,9 @@
 
 /* CSS Global */
+body {
+    background-image: linear-gradient(45deg, var(--second-color), var(--main-color));
+}
+
 p, h1, h2, h3, h4, h5, h6, body{
     font-family: "Montserrat", sans-serif;
 }
@@ -15,11 +19,11 @@ p, h1, h2, h3, h4, h5, h6, body{
 a { 
     color: #312f2f;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 800 ;
     margin-left: 4px;
 }
 .main-btn {
-    background-color: var(--btn-color);
+    background-color: var(--main-color);
 }
 
 .main-btn p {
@@ -29,6 +33,7 @@ a {
 
 /* Login-box declare */
 .login-box {
+    background-color: white;
     width: 350px;
     height: fit-content;
     box-shadow: 0px 0px 45px #f3f3f3;
