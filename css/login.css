@@ -46,14 +46,8 @@ a {
     border-bottom: 2px solid var(--border-color);
 }
 
-<<<<<<< HEAD
-.login-box .p-link{
-    font-size: small;
-    line-height: 14px;
-=======
 .login-box .subtitle{
     color: var(--subtitle-color);
->>>>>>> f25b6b688789aef4582b19a94274f18670f43993
 }
 
 
