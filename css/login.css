@@ -48,6 +48,11 @@ a {
     font-weight: 700 !important;
 }
 
+/* Bloco Principal */
+.main-block {
+    min-height: 532px;
+}
+
 /* Login-box declare */
 .login-box {
     background-color: white;
@@ -88,4 +93,12 @@ a {
     border-color: var(--border-color);
     outline: 0;
     box-shadow: 0px 0px 20px #f3f3f3;
+}
+
+/* Media-login-box */
+
+@media screen and (max-width: 390px){
+    .login-box {
+        width: calc(100vw - 40px);
+    }
 }
