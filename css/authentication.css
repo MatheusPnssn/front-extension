@@ -24,13 +24,17 @@ a {
     margin-left: 4px;  
 }
 
+a:hover { 
+    color: var(--main-color);
+}
+
 .main-btn {
     overflow: hidden;
     background-color: var(--main-color);
 }
 
 .main-btn .btn-hover {
-    transition: 0.6s ease-in-out all;
+    transition: 0.4s ease-in all;
     position: absolute;
     width: 0;
     height: 100%;
@@ -52,12 +56,17 @@ a {
 
 
 /* Bloco Principal */
-.main-block {
+.main-block.register {
     overflow-x: hidden;
     min-height: 732px;
 }
 
-/* Login-box declare */
+.main-block.login {
+    overflow-x: hidden;
+    min-height: 532px;
+}
+
+/* Login-box */
 .login-box {
     background-color: white;
     width: 350px;
@@ -91,12 +100,34 @@ a {
     font-family: "Poppins", sans-serif;
 }
 
+.login-box .info-subtitle{
+    font-size: 12px;
+    color: var(--subtitle-color);
+    font-family: "Poppins", sans-serif;
+}
+
+.login-box .info-link{
+    font-size: 10px;
+}
+
 .form-control:focus {
     color: #818181;
     background-color: #2d82d60f;
     border-color: var(--border-color);
     outline: 0;
     box-shadow: 0px 0px 20px #f3f3f3;
+}
+
+.password-icon.fa-eye {
+    position: absolute;
+    right: 8px;
+    bottom: 10px;
+}
+
+.password-icon.fa-eye-slash {
+    position: absolute;
+    right: 7px;
+    bottom: 10px;
 }
 
 /* Media-login-box */
