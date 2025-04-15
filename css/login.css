@@ -2,6 +2,7 @@
 /* CSS Global */
 body {
     background-image: linear-gradient(45deg, var(--second-color), var(--main-color));
+    overflow-x: hidden;
 }
 
 p, h1, h2, h3, h4, h5, h6, body{
