@@ -25,13 +25,31 @@ a {
 }
 
 .main-btn {
+    overflow: hidden;
+    background-color: var(--main-color);
+}
+
+.main-btn .btn-hover {
+    transition: 0.6s ease-in-out all;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    border-radius: 40px;
+    background-color: #4ee968;
+}
+
+.main-btn:hover .btn-hover {
+    width: 140%;
+    background-color: #37d7528f;
     background-color: var(--main-color);
 }
 
 .main-btn p {
+    z-index: 10;
     color: white;
     font-weight: 700 !important;
 }
+
 
 /* Bloco Principal */
 .main-block {
