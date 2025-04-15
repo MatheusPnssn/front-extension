@@ -6,8 +6,9 @@
 }
 
 .navi-shadow{
+    padding: 8px;
     max-width: 1210px;
     height: 70px;
-    border-radius: 15px;
+    border-radius: 22px;
     background-color: #eeefef96;
 }
