@@ -1,0 +1,350 @@
+.bg-half-170 {
+    padding: 170px 0;
+    background-size: cover !important;
+    align-self: center;
+    position: relative;
+    background-position: center center;
+}
+
+@media (max-width: 767px) {
+    .bg-half-170 {
+        padding: 120px 0;
+        height: auto;
+    }
+}
+
+.bg-soft-primary {
+    background-color: rgba(56, 189, 248, 0.05) !important;
+    color: #38bdf8 !important;
+}
+
+.title-heading {
+    line-height: 26px;
+}
+
+.title-heading .heading {
+    font-size: 48px !important;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+    .title-heading .heading {
+        font-size: 40px !important;
+    }
+}
+
+.title-heading .heading.sub-heading {
+    font-size: 32px !important;
+}
+
+@media (max-width: 768px) {
+    .title-heading .heading.sub-heading {
+        font-size: 28px !important;
+    }
+}
+
+.title-heading .letter-spacing {
+    letter-spacing: 1px;
+}
+
+.title-heading .para-desc {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+    .title-heading .para-desc {
+        font-size: 16px !important;
+    }
+}
+
+.text-muted {
+    color: #94a3b8 !important;
+}
+
+a.text-muted:hover,
+a.text-muted:focus {
+    color: #8596ae !important;
+}
+
+/*********************************/
+/*         Nav-tabs            */
+/*===============================*/
+.nav-pills {
+    margin-bottom: 15px;
+    background: #f4f6fa;
+}
+
+.nav-pills .nav-link {
+    color: #495057 !important;
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+
+.nav-pills .nav-link.nav-link-alt {
+    color: #ffffff !important;
+}
+
+.nav-pills .nav-link.nav-link-alt.active {
+    background: #1e293b !important;
+}
+
+.nav-pills .nav-link.active {
+    background: #38bdf8;
+    color: #ffffff !important;
+}
+
+.nav-pills .nav-link.active .tab-para {
+    color: rgba(255, 255, 255, 0.65) !important;
+}
+
+.nav-pills {
+    background-color: transparent !important;
+}
+
+.about-right {
+    display: flex;
+    justify-content: end;
+}
+
+.about-right .img-one {
+    max-width: 80%;
+}
+
+.about-right .img-one .cta-video {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.about-right .img-two {
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    max-width: 250px;
+}
+
+.shadow {
+    box-shadow: 0 0 3px rgba(30, 41, 59, 0.15) !important;
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 25px rgba(30, 41, 59, 0.15) !important;
+}
+
+.shadow-md {
+    box-shadow: 0 5px 13px rgba(30, 41, 59, 0.2) !important;
+}
+
+
+.section-title {
+    position: relative;
+}
+
+.section-title .title {
+    letter-spacing: 0.5px;
+    font-size: 30px !important;
+}
+
+@media (max-width: 768px) {
+    .section-title .title {
+        font-size: 26px !important;
+    }
+}
+
+.para-desc {
+    max-width: 600px;
+}
+
+.card-integration {
+    /* padding: 60px 0; */
+    background: linear-gradient(154deg, rgba(255, 255, 255, .08) 0%, rgba(255, 255, 255, .03) 100%);
+    border-radius: 20px;
+    box-shadow: inset 0 1px 1px #ffffff1a;
+    height: 180px;
+    width: 180px;
+    /* gap: 30px; */
+    overflow: hidden;
+    position: relative;
+}
+
+.card-integration p {
+    font-size: 17px;
+    font-weight: 600;
+    color: #363636;
+}
+
+.card-integration p.card-title {
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.card-integration p.card-subtitle {
+    color: rgb(135, 135, 135);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.card-integration p.card-description {
+    color: rgb(89, 89, 89);
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.text-primary {
+    color: #38bdf8 !important;
+}
+
+footer .footer-py-60 {
+    padding: 60px 0;
+}
+
+footer .footer-py-30 {
+    padding: 30px 0;
+}
+
+.bg-footer {
+    background-color: #202942 !important;
+}
+
+.gradient-2 {
+    background-image: linear-gradient(0deg, #38bdf8, #4a72d6)
+}
+
+footer {
+    position: relative;
+    color: #adb5bd;
+}
+
+.btn {
+    padding: 6px 22px;
+    outline: none;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    transition: all 0.3s;
+    border-radius: 8px;
+  }
+
+.btn-custom {
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: white;
+    width: 250px;
+    height: 50px;
+}
+
+.btn-custom p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-custom a {
+    transition: all ease-in-out 0.4s;
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.btn-custom:hover a {
+    width: 100%;
+    background-color: #4a72d641;
+    border-radius: 0px;
+}
+
+.btn-primary {
+    background-color: #38bdf8 !important;
+    border: 1px solid #38bdf8 !important;
+    color: #ffffff !important;
+    box-shadow: 0 3px 5px 0 rgba(56, 189, 248, 0.1);
+  }
+  
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.focus {
+    background-color: #09acf4 !important;
+    border-color: #09acf4 !important;
+    color: #ffffff !important;
+  }
+
+  .btn.btn-pills {
+    border-radius: 30px;
+  }
+
+footer .footer-list li {
+    margin-bottom: 10px;
+}
+
+footer .footer-list li a {
+    transition: all 0.5s ease;
+}
+
+footer .footer-list li a:hover {
+    color: #e6e8ea;
+}
+
+footer .footer-list li:last-child {
+    margin-bottom: 0;
+}
+
+footer .footer-head {
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #f8f9fc;
+}
+
+.mt-100 {
+    margin-top: 100px;
+  }
+  
+  .mb-60 {
+    margin-bottom: 60px;
+  }
+  
+  .pt-150 {
+    padding-top: 150px !important;
+  }
+
+  .about-left .img-one {
+    max-width: 80%;
+  }
+  
+  .about-left .img-one .cta-video {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+  }
+  
+  .about-left .img-two {
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+    max-width: 250px;
+  }
+  
+  .about-right {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .about-right .img-one {
+    max-width: 80%;
+  }
+  
+  .about-right .img-one .cta-video {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+  
+  .about-right .img-two {
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    max-width: 250px;
+  }
+
+.py-100{
+    padding:100px 0;
+}
