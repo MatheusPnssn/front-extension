@@ -22,6 +22,7 @@ a {
     font-size: 12px;
     font-weight: 800 ;
     margin-left: 4px;  
+    transition: 0.2s ease-in-out all;
 }
 
 a:hover { 
@@ -55,11 +56,6 @@ a:hover {
 
 
 /* Bloco Principal */
-.main-block.register {
-    overflow-x: hidden;
-    min-height: 732px;
-}
-
 .main-block.login {
     overflow-x: hidden;
     min-height: 532px;
@@ -135,4 +131,12 @@ a:hover {
     .login-box {
         width: calc(100vw - 40px);
     }
+}
+
+@media screen and (max-height: 550px){
+    .main-block.register {
+        overflow-x: hidden;
+        min-height: 732px;
+    }
+    
 }
