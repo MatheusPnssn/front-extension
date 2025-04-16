@@ -116,3 +116,39 @@ form .error {
     display: block !important;
 }
 
+.card-integration{
+    /* padding: 60px 0; */
+    background: linear-gradient(154deg, rgba(255, 255, 255, .08) 0%, rgba(255, 255, 255, .03) 100%);
+    border-radius: 20px;
+    box-shadow: inset 0 1px 1px #ffffff1a;
+    height: 180px;
+    width: 180px;
+    /* gap: 30px; */
+    overflow: hidden;
+    position: relative;
+}
+
+.card-integration p {
+    font-size: 17px;
+    font-weight: 600;
+    color: #363636;
+}
+
+.card-integration p.card-title {
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.card-integration p.card-subtitle {
+    color: rgb(135, 135, 135);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.card-integration p.card-description {
+    color: rgb(89, 89, 89);
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 0;
+}
