@@ -140,3 +140,17 @@ a:hover {
     }
     
 }
+
+/* Pag Erro 404 */
+
+.block-404 h1{
+    font-weight: 800;
+    font-size: 112px;
+    color: white;
+} 
+
+.block-404 p{
+    font-weight: 250;
+    font-size: 30px;
+    color: white;
+} 
