@@ -29,32 +29,6 @@ a:hover {
     color: var(--main-color);
 }
 
-.main-btn {
-    overflow: hidden;
-    background-color: var(--main-color);
-}
-
-.main-btn .btn-hover {
-    transition: 0.4s ease-in all;
-    position: absolute;
-    width: 0;
-    height: 100%;
-    border-radius: 40px;
-    background-color: transparent;
-}
-
-.main-btn:hover .btn-hover {
-    width: 140%;
-    background-color: #37d7528f;
-}
-
-.main-btn p {
-    z-index: 10;
-    color: white;
-    font-weight: 700 !important;
-}
-
-
 /* Bloco Principal */
 .main-block.login {
     overflow-x: hidden;
