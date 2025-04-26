@@ -1,7 +1,14 @@
 /* Inicio CSS-Global */
+.pt-100 {
+    padding-top: 100px;
+}
 
 .py-100 {
     padding: 100px 0;
+}
+
+.py-200 {
+    padding: 200px 0;
 }
 
 .pt-150 {
@@ -10,6 +17,14 @@
 
 .mt-100 {
     margin-top: 100px;
+}
+
+.mb-200 {
+    margin-bottom: 200px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
 }
 
 .mb-60 {
@@ -242,6 +257,41 @@ a:hover {
     }
 }
 
+.services-more .item {
+    padding: 50px 35px;
+    border: 1px solid var(--main-color);
+    margin-top: 15px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.services-more .item i {
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: 30px;
+    background: var(--main-color);
+    color: white;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 50%;
+}
+
+.sub-heading {
+    text-transform: uppercase;
+    color: var(--main-color);
+    font-weight: 600;
+    background: var(--main-color);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
 /* Final Section */
 
 /* Inicio Card */
@@ -287,6 +337,19 @@ a:hover {
 
 /* Final Card */
 
+/* line section */
+.brand-style-one-items {
+    background-image: url(../images/13.png);
+    height: 400px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-color: #10393b;
+}
+
 /* Inicio Footer */
 
 footer {
@@ -295,7 +358,7 @@ footer {
 }
 
 .bg-footer {
-    background-color: #1e2330 !important;
+    background-color: #10393b !important;
 }
 
 footer .footer-py-60 {
