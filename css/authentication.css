@@ -128,3 +128,31 @@ a:hover {
     font-size: 30px;
     color: white;
 } 
+
+@media screen and (max-width: 768px) {
+    .block-404 > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center;
+        min-height:532px;
+        
+    }
+
+    .block-404 h1 {
+        font-weight: 800;
+        font-size: calc(10vw + 10px); 
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    .block-404 p {
+        font-size: calc(4vw + 5px); 
+    }
+
+    .block-404 img {
+        margin: 20px 0;
+        width: calc(100vw - 40px); 
+        max-width: 500px; 
+    }
+}
